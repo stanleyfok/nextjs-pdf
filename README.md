@@ -1,4 +1,4 @@
-Server-side PDF generation using Next.js
+Server-side PDF generation example using Next.js
 =======
 
 ### Getting Start
