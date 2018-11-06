@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Article from '../components/Article';
+import PDFLayout from '../components/PDFLayout';
 import pdfHelper from '../lib/pdfHelper';
 
 class IndexPage extends React.Component {
@@ -9,7 +10,9 @@ class IndexPage extends React.Component {
     const isServer = !!req;
 
     if (isServer && exportPDF) {
-      const buffer = await pdfHelper.componentToPDFBuffer(<Article/>)
+      const buffer = await pdfHelper.componentToPDFBuffer(
+        <PDFLayout><Article/></PDFLayout>
+      );
 
       // with this header, your browser will prompt you to download the file
       // without this header, your browse will open the pdf directly
