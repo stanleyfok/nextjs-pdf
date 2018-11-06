@@ -1,7 +1,7 @@
 Server-side PDF generation example using Next.js
 =======
 
-[Medium Article](https://medium.com/@stanleyfok/pdf-generation-with-react-componenets-using-next-js-at-server-side-ee9c2dea06a7)
+[Medium Article - PDF generation with React Componenets using Next.js at Server Side](https://medium.com/@stanleyfok/pdf-generation-with-react-componenets-using-next-js-at-server-side-ee9c2dea06a7)
 
 ### Getting Start
 
