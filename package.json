@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Server-side PDF generation using Next.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev-server": "node server.js",
+    "dev": "next",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "analyze": "BUNDLE_ANALYZE=both next build",
@@ -16,7 +17,6 @@
   "author": "Stanley Fok",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
     "html-pdf": "^2.2.0",
     "next": "^7.0.2",
     "react": "^16.6.0",
